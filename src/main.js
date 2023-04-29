@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-createApp(App).mount('#app')
+createApp(App)
+  .use(router)
+  .mount('#app');
+
+AOS.init()
