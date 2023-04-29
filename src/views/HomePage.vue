@@ -18,7 +18,7 @@
                                 role="button">Twitter <i class="fab fa-twitter"></i></a>
                             <a href="https://discord.gg/ynqBbq7EbF" target="_blank" class="btn btn-discord"
                                 role="button">Discord <i class="fab fa-discord"></i></a>
-                            <a href="/collection" target="_blank" class="btn btn-warning" role="button">Collection</a>
+                            <a href="/collection" class="btn btn-warning" role="button">Collection</a>
                         </div>
                     </div>
                     <div class="d-none col-md-5 align-self-center d-md-flex justify-content-center">
@@ -109,7 +109,7 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
                             <div class="d-flex align-content-center justify-content-center mt-5" style="column-gap: 20px; flex-wrap: wrap; row-gap: 10px;">
                                 <a href="https://twitter.com/OrdinalMB" target="_blank" class="btn btn-primary" role="button">Twitter <i class="fab fa-twitter"></i></a>
                                 <a href="https://discord.gg/ynqBbq7EbF" target="_blank" class="btn btn-discord" role="button">Discord <i class="fab fa-discord"></i></a>
-                                <a href="/collection" target="_blank" class="btn btn-warning" role="button">Collection</a>
+                                <a href="/collection" class="btn btn-warning" role="button">Collection</a>
                             </div>
                         </div>
                     </div>

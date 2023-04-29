@@ -16,13 +16,13 @@
                             <a class="nav-link" href="/#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/collection">Inscriptions</a>
+                            <a class="nav-link" target="_blank" href="https://ordinal-monkey-business.gitbook.io/whitepaper/">Whitepaper</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link resume btn btn-warning text-dark" href="https://ordinal-monkey-business.gitbook.io/whitepaper/" target="_blank">Whitepaper</a>
+                            <a class="nav-link resume btn btn-warning text-dark" href="/collection">Collection</a>
                         </li>
                     </ul>
                 </div>
