@@ -403,6 +403,30 @@ header .navbar-nav {
     border-color: #A87A05;
 }
 
+.btn-transparent {
+    border-color: white;
+}
+
+.btn-transparent:focus, .btn-transparent:hover {
+    background-color: #212529;
+}
+
+.dropdown-menu {
+    display: block;
+    padding: unset;
+    margin-top: 5px;
+    background-color: #212529;
+    right: -30px;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #212529;
+}
+
 /* Modal */
 .modal,
 .modal p {

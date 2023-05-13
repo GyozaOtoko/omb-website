@@ -117,9 +117,10 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
             </div>
         </div>
     </section>
-  </template>
-  
-  <script>
-  
-  </script>
-  
+</template>
+
+<script>
+    export default {
+
+    }
+</script>
