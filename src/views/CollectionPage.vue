@@ -53,8 +53,7 @@
                                     alt="magiceden"></a>
                         </div>
                         <div title="OrdSwap">
-                            <a href="https://ordswap.io/collections/monkey-business" target="_blank"><img
-                                    src="https://ordswap.io/logo2.svg" alt="ordswap"></a>
+                            <a href="https://ordswap.io/collections/monkey-business" target="_blank"><img src="https://ordswap.io/favicon.ico" alt="ordswap"></a>
                         </div>
                         <div title="Ordynals">
                             <a href="https://beta.ordynals.com/collection/ordinal-monkey-business" target="_blank"><img
@@ -90,7 +89,6 @@ export default {
     computed: {
     },
     methods: {
-
     },
     async mounted() {
     },
