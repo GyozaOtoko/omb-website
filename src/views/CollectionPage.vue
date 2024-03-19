@@ -49,15 +49,15 @@
                         </div>
                         <div title="Magic Eden">
                             <a href="https://magiceden.io/ordinals/marketplace/ordinalmb" target="_blank"><img
-                                    src="https://pbs.twimg.com/profile_images/1608832132448948224/VZwAgvrL_400x400.jpg"
+                                    src=""
                                     alt="magiceden"></a>
                         </div>
                         <div title="OrdSwap">
-                            <a href="https://ordswap.io/collections/monkey-business" target="_blank"><img src="https://ordswap.io/favicon.ico" alt="ordswap"></a>
+                            <a href="https://ordswap.io/collections/monkey-business" target="_blank"><img src="" alt="ordswap"></a>
                         </div>
                         <div title="Ordynals">
                             <a href="https://beta.ordynals.com/collection/ordinal-monkey-business" target="_blank"><img
-                                    src="https://beta.ordynals.com/favicon.png" alt="ordynals"></a>
+                                    src="" alt="ordynals"></a>
                         </div>
                         <div title="Ordinal Hub">
                             <a href="https://ordinalhub.com/collection/ordinal-mb" target="_blank"><img
