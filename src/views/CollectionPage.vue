@@ -42,22 +42,18 @@
                         <option value="number" default>Sort: Number</option>
                         <option value="rarity">Sort: Rarity</option>
                     </select>
-                    <div class="marketplaces" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;">
+                    <div class="marketplaces" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; align-items: center;">
                         <div title="Ordinals Wallet">
                             <a href="https://ordinalswallet.com/collection/ordinal-mb" target="_blank"><img
                                     src="https://ordinalswallet.com/logo-icon.svg" alt="ordinalswallet"></a>
                         </div>
                         <div title="Magic Eden">
-                            <a href="https://magiceden.io/ordinals/marketplace/ordinalmb" target="_blank"><img
-                                    src=""
-                                    alt="magiceden"></a>
+                            <a href="https://magiceden.io/ordinals/marketplace/ordinalmb" target="_blank"><img 
+                                    src="https://magiceden.io/_next/image?url=https%3A%2F%2Fnext.cdn.magiceden.dev%2F_next%2Fstatic%2Fmedia%2Flogo_2.8aa56045.png&w=64&q=75" alt="magiceden"></a>
                         </div>
-                        <div title="OrdSwap">
-                            <a href="https://ordswap.io/collections/monkey-business" target="_blank"><img src="" alt="ordswap"></a>
-                        </div>
-                        <div title="Ordynals">
-                            <a href="https://beta.ordynals.com/collection/ordinal-monkey-business" target="_blank"><img
-                                    src="" alt="ordynals"></a>
+                        <div title="Best In Slot">
+                            <a href="https://bestinslot.xyz/ordinals/collection/ordinalmb" target="_blank"><img
+                                    src="https://bestinslot.xyz/static/footer_icon.png" alt="bestinslot"></a>
                         </div>
                         <div title="Ordinal Hub">
                             <a href="https://ordinalhub.com/collection/ordinal-mb" target="_blank"><img
