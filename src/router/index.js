@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/HomePage.vue';
 import Collection from '../views/CollectionPage.vue';
+import Natmonkeys from '../views/NatmonkeysPage.vue';
 
 const routes = [
     {
@@ -12,6 +13,11 @@ const routes = [
         path: '/collection',
         name: 'collection',
         component: Collection,
+    },
+    {
+        path: '/natmonkeys',
+        name: 'natmonkeys',
+        component: Natmonkeys,
     },
 ];
 

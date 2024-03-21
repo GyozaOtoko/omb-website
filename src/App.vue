@@ -13,7 +13,7 @@
                             <a class="nav-link" href="/#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#services">Services</a>
+                            <a class="nav-link" href="/natmonkeys">Natmonkeys</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="https://ordinal-monkey-business.gitbook.io/whitepaper/">Whitepaper</a>
