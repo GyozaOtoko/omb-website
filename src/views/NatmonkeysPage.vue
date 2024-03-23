@@ -10,7 +10,7 @@
                                 <h1>Natmonkeys</h1>
                                 <p><b>8064 Monkeys generated straight from the Bitcoin blockchain!</b></p>
                                 <p>Natmonkey #:</p>
-                                <input id="blk" type="number" v-model="blockNumber" @input="onBlockChange"/>
+                                <input id="blk" type="number" v-model="blockNumber" @input="(val) => onBlockChange"/>
                                 <div id="cigDiv" class="cig m-2" v-show="showCigCheckbox">
                                     <input id="cig" style="padding:20px" @click="checkCig" type="checkbox" v-model="cigChecked"/>
                                     <label for="cig" style="color: #fff; padding-left: 20px; font-size: 12px">Show Cigarette</label>
@@ -66,7 +66,7 @@ export default {
     },
     computed: {
         originalString: function() {
-            if (this.blockNumber) 
+            if (this.blockNumber)
                 return this.blockNumber.toString()
             else return ''
         },
@@ -79,7 +79,8 @@ export default {
         }
     },
     methods: {
-        onBlockChange() {
+        onBlockChange(val) {
+            console.log(val)
             this.update()
         },
         update() {

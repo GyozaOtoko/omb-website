@@ -13,15 +13,15 @@ let showCig = true;
 // Define the tail colors
 // color names dont match actual colors - fix
 const tailColorMap = {
-    1: "#e57428", // Purple
-    2: "#40e248", // Lilac
-    3: "#bacab0", // Yellow
-    4: "#e3a1ff", // Blue
-    5: "#aaaa1b", // Brown
-    6: "#e29440", // Light Grey
-    7: "#40dee2", // Green
+    1: "#e57428", // orange
+    2: "#40e248", // green
+    3: "#bacab0", // moss green
+    4: "#e3a1ff", // light purple
+    5: "#aaaa1b", // mustard yellow
+    6: "#e29440", // Light orange
+    7: "#40dee2", // aqua blue
     8: "#FF64C1", // Pink
-    9: "#F95E3C", // Orange
+    9: "#F95E3C", // dark Orange
     0: "#585663", // Grey
 }
 
@@ -29,14 +29,14 @@ const tailColorMap = {
 const backgroundColorMap = {
     1: "#aaaa1b", //NO - mustard yellow
     2: "#00c9c1", //Aqua blue
-    3: "#ff9937", //NO - orange
+    3: "#ff9937", //light orange
     4: "#ccb6a2", //NO - cream
-    5: "#427255", //NO - musk green
-    6: "#6edb9a", //NO - light blue
-    7: "#135a8e", //Blue
+    5: "#427255", //NO - dark green
+    6: "#6edb9a", //NO - light green
+    7: "#135a8e", //NO - dark Blue
     8: "#9b6edb", //NO - purple
-    9: "#30373d", //NO - dark grey
-    0: "#30373d", //
+    9: "#585663", //NO - grey
+    0: "#ffb5e1", //NO - baby pink
 }
 
 const earringColors = ["#50c878","#dddcd7","#e8cb1f","#b9f2ff"]
@@ -61,23 +61,25 @@ const typeColorMap = {
 
 //Define the mouth items
 const mouthTypes = (i) => {
-    if (i==5) return `${xml}<rect x="269.3" y="267.65" fill="#050505" width="74.4" height="32.986"/><rect x="269.3" y="282.665" fill="#E21E3A" width="55" height="18.085"/></svg>`
-    else if (i==4) return `${xml}<path fill="#050505" d="M325.6,284.15c0,7.399-4.8,13.699-11.6,15.8c-1.6,0.5-3.3,0.8-5,0.8c-9.1,0-16.6-7.4-16.6-16.6c0-9.2,0.3-3.4,0.8-5c2.1-6.7,8.399-11.5,15.8-11.5s16.6,7.399,16.6,16.6V284.15z"/><path fill="#E21E3A" d="M314.8,294.95c0,1.8-0.3,3.399-0.8,5c-1.6,0.5-3.3,0.8-5,0.8c-9.1,0-16.6-7.4-16.6-16.6c0-9.2,0.3-3.4,0.8-5c1.6-0.5,3.3-0.801,5-0.801C307.3,278.35,314.8,285.75,314.8,294.95z"/></svg>`
-    else return `${xml}<rect x="269.3" y="267.65" fill="#FFFFFF" width="74.4" height="33.1"/><line fill="none" stroke="#050505" x1="322.5" y1="267.65" x2="322.5" y2="300.75"/><line fill="none" stroke="#050505" x1="269.3" y1="284.2" x2="343.7" y2="284.2"/><line fill="none" stroke="#050505" x1="294.4" y1="267.65" x2="294.4" y2="300.75"/></svg>`
+    let teeth = `<rect x="269.3" y="267.65" fill="#FFFFFF" width="74.4" height="33.1"/><line fill="none" stroke="#050505" x1="322.5" y1="267.65" x2="322.5" y2="300.75"/><line fill="none" stroke="#050505" x1="269.3" y1="284.2" x2="343.7" y2="284.2"/><line fill="none" stroke="#050505" x1="294.4" y1="267.65" x2="294.4" y2="300.75"/></svg>`
+    if (i==0) return `${xml}<rect x="269.3" y="267.65" fill="#050505" width="74.4" height="32.986"/><rect x="269.3" y="282.665" fill="#E21E3A" width="55" height="18.085"/></svg>`
+    else if (i==1) return `${xml}<path fill="#050505" d="M325.6,284.15c0,7.399-4.8,13.699-11.6,15.8c-1.6,0.5-3.3,0.8-5,0.8c-9.1,0-16.6-7.4-16.6-16.6c0-9.2,0.3-3.4,0.8-5c2.1-6.7,8.399-11.5,15.8-11.5s16.6,7.399,16.6,16.6V284.15z"/><path fill="#E21E3A" d="M314.8,294.95c0,1.8-0.3,3.399-0.8,5c-1.6,0.5-3.3,0.8-5,0.8c-9.1,0-16.6-7.4-16.6-16.6c0-9.2,0.3-3.4,0.8-5c1.6-0.5,3.3-0.801,5-0.801C307.3,278.35,314.8,285.75,314.8,294.95z"/></svg>`
+    else if (i==6) return `${xml}<rect x="269.3" y="267.65" fill="#FFFFFF" width="74.4" height="33.1"/><line fill="none" stroke="#050505" x1="269.3" y1="284.2" x2="343.7" y2="284.2"/></svg>`
+    else return `${xml}${teeth}`
 }
 
 //svg element
 const mouthColors = {
-    1: '#FF1E39', // closed red
-    2: '', // open
-    3: '#AF89FE', // closed purple
+    1: '#FF1E39', // red
+    2: '', // 
+    3: '#AF89FE', // purple
     4: '#15D96F', // green teeth
     5: '#FDF64D', // yellow teeth
-    6: '#CBC7E3', // grey teeth
-    7: "#15D96F", // teeth one line
-    8: "#FF64C1", // diamond color
-    9: "#000", // closed
-    0: "#585663", // one line yellow
+    6: '#CBC7E3', // light purple teeth
+    7: "#15D96F", // teeth one line green
+    8: "#FF64C1", // pink
+    9: "#000", // black
+    0: "#585663", // grey
 }
 
 const mouthAccItems = {
@@ -207,11 +209,12 @@ function displayEyes(i,d) {
     return i==1 ? `${xml}<rect fill="${typeColorMap[d][3]}" x="343.7" y="188.8" width="56" height="27.3"/><rect fill="${typeColorMap[d][3]}" x="217" y="188.8" width="56" height="27.3"/></svg>` : 
     i==2 ? `${xml}${generateLookSvg(lookDir,"#ea2824")}`:
     i==3 ? `${xml}<rect fill="#050505" x="215.2" y="175.9" width="59.9" height="3.9" transform="translate(32.4 -37.7) rotate(9.4)"/><rect fill="#050505" x="339.8" y="175.9" width="59.9" height="3.9" transform="translate(763.6 292.9) rotate(170.6)"/></svg>` :
-    i==4 ? `${xml}${generateLookSvg(lookDir,"#4be005")}` : `${xml}${generateLookSvg(lookDir)}`
+    i==4 ? `${xml}${generateLookSvg(lookDir,'#fff',"#ff6a00")}` : 
+    i==5 ? `${xml}${generateLookSvg(lookDir,'#fff',"#00ff00")}` : `${xml}${generateLookSvg(lookDir)}`;
 }
 
 function displayNose(i) {
-    return nose(noseColors[i-1]);
+    return (i==1||i==2) ? nose(noseColors[i-1]) : i==3 ? `${wrapper(`${xml}<rect x="290.7" y="239.8" width="7.1" height="20"/><rect x="315.2" y="239.8" width="7.1" height="20"/></svg>`)}` : i==4 ? `${nose(noseColors[3])}${wrapper(`${xml}<rect x="290.96" y="249.7" width="3.6" height="12.6" fill="#0af"/></svg>`)}` : '';
 }
 
 function checkNumbers(blockNumber, number, amount) {
@@ -265,13 +268,13 @@ function displayLaserEyes() {
 }
 function cs5(number) {
     const numberStr = number.toString()
-    for (let i = 0; i < numberStr.length - 4; i++) { // Ensure there are at least 3 characters to check
-        const substring = numberStr.substring(i, i + 5) // Get the substring of 3 characters
+    for (let i = 0; i < numberStr.length - 4; i++) { // Ensure there are at least 6 characters to check
+        const substring = numberStr.substring(i, i + 5) // Get the substring of 6 characters
         if (!substring.startsWith('0')) { // Exclude substrings starting with '0'
             const subNum = parseInt(substring, 10)
             const s = Math.sqrt(subNum)
             if (s === Math.floor(s)) { // Check if s is a perfect square
-                return "cs5d" // Return a different identifier for 3-digit perfect squares
+                return "cs5d" // Return a different identifier for 6-digit perfect squares
             }
         }
     }
@@ -381,8 +384,8 @@ function generateHtmlBasedOnBlockNumber(blockNumber, widthIn, heightIn, cigCheck
     }
     eyes = wrapper(eyes);
     let noses = nose();
-    for (let i=2;i<4;i++) {
-        checkNumbers(blockNumber, '1', i) ? noses=noses+displayNose(i-1) : "";
+    for (let i=2;i<6;i++) {
+        checkNumbers(blockNumber, '1', i) ? noses=displayNose(i-1) : "";
     }
     let bandana = '';
     bandana = c9a9(blockNumber) ? displayBandana(0) : '';
@@ -402,8 +405,8 @@ function generateHtmlBasedOnBlockNumber(blockNumber, widthIn, heightIn, cigCheck
     if (mul(blockNumber,69)) hat=displayHat(5);
     let redCape = cp6(blockNumber) ? displayRedCape() : "";
     let ribbon = ce7(blockNumber) ? displayRibbon() : ""
-    let shades = cs5(blockNumber) ? displayShades() : ""
     let monocle = cs6(blockNumber) ? displayMonocle() : ""
+    let shades = cs5(blockNumber) && !monocle ? displayShades() : ""
     let suit = mul(blockNumber,11) ? displaySuit() : ""
     let hoodie = mul(blockNumber,888) ? displayHoodie() : ""
     const containsSquare = containsFourDigitSquare(blockNumber)
