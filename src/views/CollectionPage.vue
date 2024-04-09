@@ -56,6 +56,9 @@
                         <div title="Best In Slot">
                             <a href="https://bestinslot.xyz/ordinals/collection/ordinalmb" target="_blank"><img
                                     src="https://bestinslot.xyz/static/footer_icon.png" alt="bestinslot"></a>
+                        <div title="Best In Slot">
+                            <a href="https://bestinslot.xyz/ordinals/collection/ordinalmb" target="_blank"><img
+                                    src="https://bestinslot.xyz/static/footer_icon.png" alt="bestinslot"></a>
                         </div>
                         <div title="Ordinal Hub">
                             <a href="https://ordinalhub.com/collection/ordinal-mb" target="_blank"><img
