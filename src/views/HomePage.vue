@@ -5,8 +5,8 @@
                 <div class="row fade-up" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800"
                     data-aos-once="true">
                     <div class="col bubble">
-                        <img src="https://bafkreihhla7v2oiulx6yuuy7b7sib4nyveioipbtms3eglbpcq7dhqh47i.ipfs.nftstorage.link/"
-                        class="profile-img mirrored img-fluid" alt="OMB king">
+                        <!-- <img src="https://bafkreihhla7v2oiulx6yuuy7b7sib4nyveioipbtms3eglbpcq7dhqh47i.ipfs.nftstorage.link/" -->
+                        <img src="https://bafkreie67evb2ej4ugpjeyu3vgiww7od2x6pksd5mrifg7npkmjuf4mqta.ipfs.nftstorage.link/" class="profile-img mirrored img-fluid" alt="OMB king">
                         <p class="bubble-sub">Natmonkeys</p>
                     </div>
                     <div class="col bubble">
