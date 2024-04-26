@@ -23,7 +23,7 @@
                                         href="https://ordinal-monkey-business.gitbook.io/whitepaper/">Whitepaper</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link resume btn btn-warning text-dark" href="/#contact">Contact</a>
+                                    <a class="nav-link resume btn btn-warning text-dark" href="/ombiz#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -36,29 +36,29 @@
             <section id="footer">
                 <div class="container">
                     <div class="text-center">
-                        <ul class="foot-menu">
-                            <li class="foot-menu-item">
-                                <a href="/#about">About</a>
-                            </li>
-                            <li class="foot-menu-item">
-                                <a href="/#services">Services</a>
-                            </li>
-                            <li class="foot-menu-item">
-                                <a href="https://ordinal-monkey-business.gitbook.io/whitepaper"
-                                    target="_blank">Whitepaper</a>
-                            </li>
-                            <li class="foot-menu-item">
-                                <a href="/#contact">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="socials-media text-center">
+                        <div class="socials text-center">
                             <ul class="list-unstyled">
-                                <li hidden=""><a target="_blank" href="https://discord.gg/ynqBbq7EbF"><i
+                                <li><a target="_blank" href="https://discord.gg/ynqBbq7EbF"><i
                                             class="fab fa-discord"></i></a></li>
-                                <li hidden=""><a target="_blank" href="https://twitter.com/OrdinalMB"><i
+                                <li><a target="_blank" href="https://twitter.com/NatmonkeysDMT"><i
                                             class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
+                        <ul class="foot-menu">
+                            <li class="foot-menu-item">
+                                <a href="/ombiz#about">About</a>
+                            </li>
+                            <li class="foot-menu-item">
+                                <a href="/ombiz#services">Services</a>
+                            </li>
+                            <li class="foot-menu-item">
+                                <a href="https://natmonkeys.gitbook.io/whitepaper"
+                                    target="_blank">Whitepaper</a>
+                            </li>
+                            <li class="foot-menu-item">
+                                <a href="/ombiz#contact">Contact</a>
+                            </li>
+                        </ul>
                         <p class="copyright">2024 © Copyright Ordinal Monkey Business. All rights reserved.</p>
                     </div>
                 </div>

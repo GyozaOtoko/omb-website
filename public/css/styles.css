@@ -254,7 +254,7 @@ header .navbar-nav {
   color: rgba(193, 154, 91, .75);
 }
 
-#footer .socials-media ul {
+#footer .socials ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -262,18 +262,19 @@ header .navbar-nav {
   margin: 0 0 20px 0;
 }
 
-#footer .socials-media ul li {
+#footer .socials ul li {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#footer .socials-media ul li a {
+#footer .socials ul li a {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(31, 31, 31, 0.7);
+  transition: color 0.3s;
 }
 
-#footer .socials-media ul li a:hover {
-  color: rgba(255, 255, 255);
+#footer .socials ul li a:hover {
+  color: #C19A5B;
 }
 
 #footer p {

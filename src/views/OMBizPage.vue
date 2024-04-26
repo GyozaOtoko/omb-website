@@ -127,8 +127,7 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
                         </div>
                         <div class="pb-3 d-flex flex-column align-items-center">
                             <p style="max-width: 800px;font-size: 1rem;"><em>For services, job applications, or any
-                                    questions, please join our discord and open a ticket. Our team will be happy to help
-                                    you get started!</em></p>
+                                    questions, please join our discord and open a ticket. Our team will be happy to help!</em></p>
                             <div class="d-flex align-content-center justify-content-center mt-5"
                                 style="column-gap: 20px; flex-wrap: wrap; row-gap: 10px;">
                                 <a href="https://twitter.com/OrdinalMB" target="_blank" class="btn btn-primary"
@@ -144,7 +143,6 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
         </div>
     </section>
 </template>
+<style scoped>
 
-<script>
-
-</script>
+</style>
