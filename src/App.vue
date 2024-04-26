@@ -20,7 +20,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" target="_blank"
-                                        href="https://ordinal-monkey-business.gitbook.io/whitepaper/">Whitepaper</a>
+                                        href="https://natmonkeys.gitbook.io/natmonkeys/">Gitbook</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link resume btn btn-warning text-dark" href="/ombiz#contact">Contact</a>
@@ -52,8 +52,8 @@
                                 <a href="/ombiz#services">Services</a>
                             </li>
                             <li class="foot-menu-item">
-                                <a href="https://natmonkeys.gitbook.io/whitepaper"
-                                    target="_blank">Whitepaper</a>
+                                <a href="https://natmonkeys.gitbook.io/natmonkeys"
+                                    target="_blank">Gitbook</a>
                             </li>
                             <li class="foot-menu-item">
                                 <a href="/ombiz#contact">Contact</a>

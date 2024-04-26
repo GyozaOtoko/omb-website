@@ -32,8 +32,8 @@
                         </div>
                     </div>
                     <div class="mt-4">
-                        <a href="https://ordinal-monkey-business.gitbook.io/natmonkeys" class="btn" style="color: #fff"
-                            target="_blank"><i class="icofont-diamond" style="vertical-align: text-top"></i> Traits &
+                        <a href="https://natmonkeys.gitbook.io/natmonkeys" class="btn"
+                            target="_blank"><i class="icofont-diamond"></i> Traits &
                             Rarities</a>
                     </div>
                 </div>
