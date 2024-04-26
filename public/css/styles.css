@@ -128,13 +128,17 @@ header .navbar-nav {
 }
 
 #about .div-img-bg {
-  border: 20px solid #ffc107;
+  border: 20px solid #C19A5B;
   width: fit-content;
 }
 
 #about .div-img-bg .about-img img {
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   object-fit: cover;
+}
+
+#about .about-descr, #about .about-descr p {
+  color: #fefefe
 }
 
 #about .about-descr .p-heading {
@@ -150,15 +154,20 @@ header .navbar-nav {
 
 #services {
   padding: 90px 0 80px 0;
-  background: #3a3c3c;
+  background: #EDEBDF;
 }
 
 #services .card {
   background-color: #343a40;
 }
 
+#services .card-text {
+  background-color: #343a40;
+  color: #fefefe
+}
+
 #services .card-title {
-  color: #f8bb07;
+  color: #C19A5B;
 }
 
 #services .card hr {
@@ -341,7 +350,7 @@ header .navbar-nav {
   }
 
   #about .div-img-bg {
-    border: 20px solid #ffc107;
+    border: 20px solid #C19A5B;
     width: 250px;
   }
 
@@ -369,7 +378,7 @@ header .navbar-nav {
 
   #about .div-img-bg {
     padding-bottom: 40px;
-    border: 20px solid #ffc107;
+    border: 20px solid #C19A5B;
     width: fit-content;
   }
 
@@ -397,8 +406,14 @@ header .navbar-nav {
   background-color: #F9F5EF !important;
 }
 
+.btn-warning {
+  color: #fefefe;
+  background-color: #C19A5B;
+  border-color: rgba(193, 154, 91, .75)
+} 
+
 .btn-warning:hover {
-  color: #000;
+  color: #fefefe;
   background-color: #c49105;
   border-color: #a87a05;
 }
@@ -406,6 +421,10 @@ header .navbar-nav {
 .navbar-dark .navbar-nav .nav-link {
   color: #1f1f1f;
   transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link.btn-warning, .navbar-dark .navbar-nav .nav-link.btn-warning:focus, .navbar-dark .navbar-nav .nav-link.btn-warning:hover {
+  color: #fefefe
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {

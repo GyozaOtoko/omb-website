@@ -11,11 +11,10 @@
                             <li class="list-group-item list-group-item-dark">107 Pixelated Monkeys</li>
                             <li class="list-group-item list-group-item-dark">Bitcoin Ordinal OG Builders</li>
                             <li class="list-group-item list-group-item-dark">Holders Airdrops</li>
-                            <li class="list-group-item list-group-item-dark">OMB Certified Partners</li>
                         </ul>
                         <br>
                         <div class="d-flex" style="column-gap: 20px; flex-wrap: wrap; row-gap: 10px;">
-                            <a href="https://twitter.com/OrdinalMB" target="_blank" class="btn btn-primary"
+                            <a href="https://twitter.com/NatmonkeysDMT" target="_blank" class="btn btn-primary"
                                 role="button">Twitter <i class="fab fa-twitter"></i></a>
                             <a href="https://discord.gg/ynqBbq7EbF" target="_blank" class="btn btn-discord"
                                 role="button">Discord <i class="fab fa-discord"></i></a>
@@ -52,7 +51,7 @@
                                 monkeys brought to the Bitcoin Blockchain as Ordinal inscriptions. Each one representing
                                 a significant piece of BTC history.</p>
                             <p></p>
-                            <a href="https://ordinal-monkey-business.gitbook.io/whitepaper/" target="_blank"
+                            <a href="https://natmonkeys.gitbook.io/ombiz" target="_blank"
                                 class="btn btn-warning" role="button"><i class="fas fa-scroll"></i> Whitepaper</a>
                         </div>
                     </div>
@@ -80,17 +79,8 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
                     <div class="card-body">
                         <h5 class="card-title">Art</h5>
                         <hr>
-                        <p class="card-text">Our team offers the creation of individual art as well as entire
-                            collections. We work with reliable artists vetted by our team.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Trusted Partners</h5>
-                        <hr>
-                        <p class="card-text">The plan is to certify web3 professionals as OMB partners. Therefore
-                            increasing the options, availability, and safety provided to the community when purchasing
-                            services anonymously.</p>
+                        <p class="card-text">We offer the creation of individual art as well as entire
+                            collections, generative and 1 of 1s. We work with reliable artists vetted by our team.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -98,7 +88,7 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
                         <h5 class="card-title">Full Project Launch</h5>
                         <hr>
                         <p class="card-text">Full project launch, we will be taking care of whatever is needed, from
-                            conception, to art, marketing, and inscriptions.</p>
+                            conception, to art, inscribing, and minting. All done by us in conjunction with our partners.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +103,7 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
         <div class="container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="800"
             data-aos-once="true">
             <div class="section-title text-center mb-5">
-                <h2>Join the OMB Community</h2>
+                <h2>Join Our Community</h2>
             </div>
             <div class="row text-center">
                 <div class="col-md-12">
@@ -122,15 +112,15 @@ grid-gap: 20px; grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) )">
                             <span class="icon-block__icon">
                                 <span class="mbri-letter mbr-iconfont" media-simple="true"></span>
                             </span>
-                            <h5>Visit our Discord server for more information, and follow us on Twitter for latest news!
+                            <h5>Come hang out in our Discord server and follow us on Twitter for latest news
                             </h5>
                         </div>
                         <div class="pb-3 d-flex flex-column align-items-center">
-                            <p style="max-width: 800px;font-size: 1rem;"><em>For services, job applications, or any
+                            <p style="max-width: 800px;font-size: 1rem;"><em>For services, inquiries, or
                                     questions, please join our discord and open a ticket. Our team will be happy to help!</em></p>
                             <div class="d-flex align-content-center justify-content-center mt-5"
                                 style="column-gap: 20px; flex-wrap: wrap; row-gap: 10px;">
-                                <a href="https://twitter.com/OrdinalMB" target="_blank" class="btn btn-primary"
+                                <a href="https://twitter.com/NatmonkeysDMT" target="_blank" class="btn btn-primary"
                                     role="button">Twitter <i class="fab fa-twitter"></i></a>
                                 <a href="https://discord.gg/ynqBbq7EbF" target="_blank" class="btn btn-discord"
                                     role="button">Discord <i class="fab fa-discord"></i></a>
