@@ -27,7 +27,7 @@ const tailColorMap = {
 
 // Define the shirt colors
 const backgroundColorMap = {
-    1: "#aaaa1b", //NO - mustard yellow
+    1: "#e0e02f", //NO - mustard yellow
     2: "#00c9c1", //Aqua blue
     3: "#ff9937", //light orange
     4: "#ccb6a2", //NO - cream
@@ -92,7 +92,7 @@ const mouthAccItems = {
     7: ``,
     8: `${xml}<rect x="269.3" y="267.65" width="74.4" height="33.1"/><rect x="269.3" y="280" fill="#E21E3A" width="113.783" height="12"/></svg>`, // tongue,
     9: `${xml}<polygon fill="#FCD975" points="325.254,283.201 373.711,341.205 301.694,362.5 301.694,283.2"/><polygon fill="#CF7709" points="301.694,367 301.694,362.5 373.711,341.205 376.494,344.537"/><path fill="#BE421C" d="M340.443,304.295c4.067,5.581-0.432,12.779-7.973,12.779s-13.654-5.598-13.654-12.504c0-6.905,3.295-15.888,11.466-10.271C339.593,300.698,339.094,302.443,340.443,304.295z"/><path fill="#BE421C" d="M334.145,352.911c0.008-0.11,0.019-0.221,0.019-0.333c0-6.754-5.47-12.229-12.218-12.229c-6.746,0-12.216,5.475-12.216,12.229c0,2.606,0.832,5.009,2.223,6.99C317.102,358.269,333.706,352.998,334.145,352.911z"/></svg>`, // pizza
-    0: `${xml}<rect x="269.3" y="267.65" fill="#050505" width="74.4" height="32.985"/><rect x="269.3" y="282.665" fill="#E21E3A" width="55" height="18.085"/><polyline fill="#FFFFFF" points="269.3,267.65 282.233,300.25 295.167,267.65"/><polyline fill="#FFFFFF" points="317.833,267.65 330.767,301.083 343.7,267.65"/></svg>`, // smirk
+    0: `${xml}<rect x="269.3" y="267.65" fill="#050505" width="74.4" height="32.985"/><rect x="269.3" y="282.665" fill="#E21E3A" width="55" height="18.085"/><polyline fill="#FFFFFF" points="269.3,267.65 282.233,300.25 295.167,267.65"/><polyline fill="#FFFFFF" points="317.833,267.65 330.767,301.083 343.7,267.65"/></svg>`, // fangs
 }
 
 // Define the color map with the given colors
@@ -102,11 +102,11 @@ const shirtColorMap = {
     3: "#FDF64D", // Yellow
     4: "#2067F0", // Blue
     5: "#976F53", // Brown
-    6: "#CBC7E3", // Light Grey
+    6: "#CBC7E3", // Light Blue Grey
     7: "#15D96F", // Green
     8: "#FF64C1", // Pink
     9: "#F95E3C", // Orange
-    0: "#aaaa1b", // Grey
+    0: "#aaaa1b", // Mustard Yellow
 }
 
 function wrapper(el){
@@ -333,7 +333,9 @@ function fib(number,smallest,n) {
     return null
 }
 function displayNeck(i) {
-    let neck = [`<polygon fill="#050505" points="353 383 350.2 346.8 302.4 363.8 250.9 349.9 250.9 383 300.6 365 353 383"/></svg>`,`<polygon fill="#979e56" points="243.6 376.9 257.3 361.3 275.5 380.3 259.6 394.5 243.6 376.9"/><polygon fill="#569e6a" points="214.9 376.9 228.6 361.3 246.8 380.3 230.9 394.5 214.9 376.9"/><polygon fill="#f2d006" points="272.3 376.9 286 361.3 304.2 380.3 288.3 394.5 272.3 376.9"/><polygon fill="#f4950c" points="301 376.9 314.7 361.3 332.9 380.3 317 394.5 301 376.9"/><polygon fill="#e0221e" points="329.7 376.9 343.3 361.3 361.6 380.3 345.7 394.5 329.7 376.9"/><polygon fill="#dd1fc2" points="357.7 376.9 371.3 361.3 389.6 380.3 373.6 394.5 357.7 376.9"/></svg>`,`<rect fill="#e8cb1f" x="214.9" y="369.2" width="175" height="21.6"/></svg>`];
+    let neck = [`<polygon fill="#050505" points="353 383 350.2 346.8 302.4 363.8 250.9 349.9 250.9 383 300.6 365 353 383"/></svg>`,`<polygon fill="#979e56" points="243.6 376.9 257.3 361.3 275.5 380.3 259.6 394.5 243.6 376.9"/><polygon fill="#569e6a" points="214.9 376.9 228.6 361.3 246.8 380.3 230.9 394.5 214.9 376.9"/><polygon fill="#f2d006" points="272.3 376.9 286 361.3 304.2 380.3 288.3 394.5 272.3 376.9"/><polygon fill="#f4950c" points="301 376.9 314.7 361.3 332.9 380.3 317 394.5 301 376.9"/><polygon fill="#e0221e" points="329.7 376.9 343.3 361.3 361.6 380.3 345.7 394.5 329.7 376.9"/><polygon fill="#dd1fc2" points="357.7 376.9 371.3 361.3 389.6 380.3 373.6 394.5 357.7 376.9"/></svg>`,`<defs><linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" stop-color="#a67c00" /><stop offset="100%" stop-color="#ffdc73" /></linearGradient></defs><rect x="214.9" y="369.2" width="175" height="21.6" fill="url(#grad1)"/></svg>`,
+    `<defs><linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" stop-color="#F5F7F2" /><stop offset="100%" stop-color="#8C8D8F" /></linearGradient></defs><rect x="214.9" y="369.2" width="175" height="21.6" fill="url(#grad1)"/></svg>`,
+    `<defs><linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" stop-color="#E2F4FE" /><stop offset="100%" stop-color="#38C6F4" /></linearGradient></defs><rect x="214.9" y="369.2" width="175" height="21.6" fill="url(#grad1)"/></svg>`];
     return wrapper(`${xml}${neck[i]}`)
 }
 function mul(n,m) {
@@ -418,7 +420,7 @@ function generateHtmlBasedOnBlockNumber(blockNumber, widthIn, heightIn, cigCheck
     const displayBackground = genBackground(originalString, digits);
     //construction
     let htmlContent = displayBackground + redCape + genType(originalString, digits) + mouth + svgsForDigits + hoodie + suit + neck + genMouthAcc(originalString, digits) + bandana + lookHtml + eyes + noses + OB + laserEyes + shades + monocle + earrings + hat + ribbon
-    htmlContent = displayBackground + redCape + genType(originalString, digits) + mouth + svgsForDigits + hoodie + suit + neck + genMouthAcc(originalString, digits) + bandana + lookHtml + eyes + noses + OB + laserEyes + shades + monocle + earrings + hat + ribbon
+    htmlContent = displayBackground + redCape + genType(originalString, digits) + mouth + svgsForDigits + hoodie + suit + neck + bandana + lookHtml + eyes + noses + OB + laserEyes + shades + monocle + genMouthAcc(originalString, digits) + earrings + hat + ribbon
     return htmlContent
 }
 
