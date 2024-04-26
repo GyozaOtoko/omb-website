@@ -4,7 +4,7 @@ module.exports = defineConfig({
   chainWebpack: config => {
     config.plugin('html')
       .tap(args => {
-        args[0].title = 'Ordinal Monkey Business | A Bitcoin Ordinal Project';
+        args[0].title = 'Natmonkeys | Forever Evolving Monkeys';
         return args;
       });
   },
