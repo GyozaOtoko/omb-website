@@ -47,11 +47,16 @@
         opacity: 0.8;
     }
     #hero-header .bubble:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
         opacity: 1;
     }
     #hero-header .profile-img:hover {
         opacity: 1;
+    }
+}
+@media (min-width: 1440px) {
+    #hero-header .bubble:hover {
+        transform: scale(1.5);
     }
 }
 .bubble {
